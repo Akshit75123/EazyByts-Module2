@@ -1,0 +1,145 @@
+/* PAGE 1 - HERO SECTION */
+#parentdiv {
+  height: 100%;
+  background-color: black;
+  color: #D1D5DB;
+}
+
+#herosection {
+  margin-top: 30px;
+  height: 33rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#herosection h1 {
+  font-size: 4.2rem;
+  font-family: 'Kalnia', serif;
+  font-weight: 400;
+}
+
+#h2Invest {
+  text-transform: uppercase;
+  font-size: 8.2rem;
+  font-weight: 900;
+  margin-top: -30px;
+  color: #daccfc;
+  text-shadow: 9px 10px 0.5px #5e01f5;
+  transition: 0.4s;
+}
+
+#h2Invest:hover {
+  transform: scale(1.05);
+  text-shadow: 12px 12px 0.5px #5e01f5;
+}
+
+#herosection > h5 {
+  font-weight: 300;
+  color: #D1D5DB;
+}
+
+/* BUTTON STYLING */
+#button {
+  height: 45px;
+  width: 140px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8B5CF6;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#button:hover {
+  font-weight: bolder;
+  background-color: #5e01f5;
+  transform: scale(1.1);
+}
+
+.buttonGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.LinkButton {
+  text-decoration: none;
+  color: white;
+}
+
+
+#parentdiv2 {
+  height: 80vh;
+  background-color: #111827;
+  color: #8B5CF6;
+  border-radius: 16px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#header h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+#KeySpan {
+  font-family: 'Kalnia', serif;
+}
+
+#FeaturesSpan {
+  font-weight: 700;
+}
+
+#header h5 {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+#tab {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.h1tab {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+}
+
+.h5tab {
+  font-size: 1rem;
+  color: grey;
+}
+
+.tabchild i {
+  font-size: 3rem;
+  padding: 45px 0;
+  color: #8B5CF6;
+  transition: 0.3s;
+}
+
+.tabchild i:hover {
+  transform: scale(1.2);
+  color: #5e01f5;
+}
+
+
+/* IMAGE MODIFICATIONS */
+#erlich {
+  height: 150px;
+  width: 150px;
+}
+
+#russhanneman {
+  height: 200px;
+}

@@ -1,0 +1,81 @@
+#box-parent{
+    height: 100vh;
+    background-color: #111827;
+}
+
+#box-child{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-child Form{
+    font-weight:700;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 96%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+
+}
+
+#box-child >Form > label {
+    font-size: medium;
+    /* padding: 4px; */
+    background-color: black;
+    color: white; 
+}
+
+#box-child >Form > input {
+    padding: 6px;
+    border-radius: 4px;
+    width: 20rem;
+    background-color: white;
+    color: black; /* Add your label styling here */
+    border: none;
+}
+
+#box-child> Form > label > #checkbox {
+    font-weight: 100
+ }
+
+
+ #signupbutton{
+    height: 45px;
+    width: 15rem;
+    background-color: #5e01f5;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: 0.45s;
+ }
+
+ #signupbutton:hover{
+    scale: 1.050;
+    border-radius: 8px;
+    border: none;
+    font-weight: 900;
+ }
+
+ #loginbutton{
+    height: 45px;
+    width: 12rem;
+    background-color: #5e01f5;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: 0.45s;
+ }
+
+ #loginbutton:hover{
+    scale: 1.050;
+    border-radius: 8px;
+    border: none;
+    font-weight: 900;
+ }
+
+

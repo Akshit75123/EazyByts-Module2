@@ -1,0 +1,156 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dashboard Main Container */
+#dash-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 91.7vh;
+    width: 100%;
+    background-color: #0F0F1A; /* Dark background */
+}
+
+/* Right Section of Dashboard */
+#dash-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #111827;
+    color: white;
+    overflow: auto;
+    padding: 20px;
+}
+
+/* Heading Styles */
+#ys-h1 {
+    transition: 0.6s;
+}
+
+#ys-h1:hover {
+    color: #E94560; /* Neon Pink */
+    transform: scale(1.05);
+}
+
+#dash-right h1 {
+    padding-top: 10px;
+    color: #8B5CF6; /* Neon Purple */
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#dash-right h6 {
+    color: #9298A4; /* Light Grey */
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Search Dropdown */
+.dropdown {
+    position: absolute;
+    background-color: #1A1A2E; /* Dark Blue */
+    border: 1px solid #8B5CF6; /* Neon Purple */
+    border-radius: 0 0 8px 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+    z-index: 1;
+    width: calc(100% - 24px);
+    max-height: 200px;
+    overflow-y: auto;
+    top: calc(100% + 10px);
+}
+
+/* Dropdown Items */
+.dropdown li {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #EAEAEA; /* Soft White */
+}
+
+.dropdown li:hover {
+    background-color: #E94560; /* Neon Pink */
+    color: #ffffff;
+}
+
+/* Input & Button Styles */
+.add-div {
+    margin-top: 10px;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.add-div i {
+    padding-right: 6px;
+}
+
+/* Icon Hover Effect */
+#icon-hover {
+    transition: 0.5s;
+}
+
+#icon-hover:hover {
+    transform: translateY(-5px);
+    color: #E94560; /* Neon Pink */
+}
+
+/* Input Fields */
+.add-div input {
+    background-color: #1A1A2E;
+    color: #D1D5DB;
+    border: 1px solid #5E01F5;
+    padding-left: 12px;
+    height: 45px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Remove Number Field Arrows */
+.add-div input[type="number"]::-webkit-inner-spin-button,
+.add-div input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Input Focus Effect */
+.add-div input:focus {
+    outline: none;
+    border-color: #E94560; /* Neon Pink */
+    box-shadow: 0px 0px 8px rgba(233, 69, 96, 0.6);
+}
+
+/* Input Widths */
+#i1 { width: 20rem; }
+#i2 { width: 9rem; }
+#i3 { width: 10rem; }
+#i4 { width: 11.5rem; }
+#i5 { width: 12rem; }
+
+/* Add Button */
+#addbtn {
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #22C55E; /* Neon Green */
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+#addbtn:hover {
+    background-color: #16A34A;
+    box-shadow: 0px 0px 8px rgba(34, 197, 94, 0.6);
+}
